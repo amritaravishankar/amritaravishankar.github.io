@@ -141,7 +141,7 @@ a:hover {
 .title-s {
   font-weight: 600;
   color: #1e1e1e;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 /*--/ Title A /--*/
@@ -824,22 +824,6 @@ a:hover {
   }
 }
 
-.skill-mf span {
-  color: #4e4e4e;
-  align-items: flex-end;
-}
-
-.skill-mf .progress {
-  background-color: #DCCAF2;
-  margin: .5rem 0 1.2rem 0;
-  border-radius: 0;
-  height: .5rem;
-}
-
-.skill-mf .progress .progress-bar {
-  height: .5rem;
-}
-
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -915,6 +899,57 @@ a:hover {
   font-size: 2rem;
   margin-bottom: 0;
 }
+/*--------------------------------------------------------------
+# Skills
+--------------------------------------------------------------*/
+.skills .progress {
+  height: 60px;
+  display: block;
+  background: none;
+  border-radius: 0;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0;
+  display: block;
+  font-weight: 600;
+  color: #45505b;
+  font-size: 1.1rem;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #DCCAF2;
+}
+
+.skills .progress-bar {
+  width: 5px;
+  height: 10px;
+  transition: .9s;
+  background-color: #58033d;
+}
+
+/*
+.skill-mf span {
+  color: #4e4e4e;
+  align-items: flex-end;
+}
+
+.skill-mf .progress {
+  background-color: #DCCAF2;
+  margin: .5rem 0 1.2rem 0;
+  border-radius: 0;
+  height: .5rem;
+}
+
+.skill-mf .progress .progress-bar {
+  height: .5rem;
+} */
 
 /*--------------------------------------------------------------
 # Portfolio
